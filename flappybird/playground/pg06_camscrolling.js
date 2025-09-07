@@ -8,6 +8,7 @@ let pipe;
 let topPipe, bottomPipe;
 let startScreenLabel, startScreenImg;
 let startGame = false;
+let sc
 
 //load the images before game starts
 function preload(){
