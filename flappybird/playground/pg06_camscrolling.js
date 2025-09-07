@@ -9,7 +9,7 @@ let topPipe, bottomPipe;
 let startScreenLabel, startScreenImg;
 let startGame = false;
 let score = 0;
-let
+let numberimages
 
 //load the images before game starts
 function preload(){
