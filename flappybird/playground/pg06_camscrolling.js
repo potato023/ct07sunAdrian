@@ -128,7 +128,7 @@ function draw(){
   //increase score if pipe passed
   for (let pipe of pipeGroup){
     let piperightedge = pipe.x + pipe.w/2;
-    let pipeleftedge = bird.x - bird.w/2;
+    let birdleftedge = bird.x - bird.w/2;
     if (pipe.passed == false && piperightedge<pipeleftedge){
       pipe.passed=true;
       score++;
