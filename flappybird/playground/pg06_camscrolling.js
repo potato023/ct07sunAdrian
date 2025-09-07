@@ -181,7 +181,7 @@ function drawscore(x,y,score,digitwidth,digitheight){
 }
 function movegroup(group,targetx,spacing){
   let totalwidth = (group.length - 1)*spacing;
-  let startx = (target - totalwidth/2);
+  let startx = (targetx - totalwidth/2);
   for (let i =0; i<group.length; i++){
     group[i].x = startx + i *spacing;
   }
