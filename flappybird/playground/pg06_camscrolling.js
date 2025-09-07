@@ -22,6 +22,9 @@ function preload(){
   gameoverImg = loadImage('assets/gameover.png');
   pipe= loadImage("assets/pipe-green.png");
   startScreenImg = loadImage('assets/message.png');
+  for (let  i=0; i<10; i++){
+    numberimages[i] = loadimage('assets/' + i +'.png');
+  }
 }
 
 function setup(){
@@ -51,6 +54,12 @@ function setup(){
  floor.img = base;
 
  pipeGroup = new Group();
+ scoredigits = new group();
+ scoredigits.collider = 'none';
+ scoredigits.layer = 1000;
+
+ 
+
  //setup start message and display 
  //create new sprite startscreenlabel
  startScreenLabel = new Sprite(width/2,height/2,50,50,'none');
@@ -61,7 +70,7 @@ function setup(){
 
 function draw(){
   image(bg,0,0,width,height); // draw the bg
-  
+  drawscore(width/2,20,score,24,36);
   //if press space or press mouse left click startgame = true;
   if(kb.presses('space') || mouse.presses('left')){
     startGame = true;
@@ -116,6 +125,16 @@ function draw(){
       pipe.remove();
     }
   }
+  //increase score if pipe passed
+  for (let pipe of pipeGroup){
+    let piperightedge = pipe.x + pipe.w/2;
+    let pipeleftedge = bird.x - bird.w/2;
+    if (pipe.passed == false && piperightedge<pipeleftedge){
+      pipe.passed=true;
+      score++;
+    }
+  }
+
 
   if(bird.collides(pipeGroup) || bird.collides(floor)){
     //create new sprite var name = gameoverLabel
@@ -137,11 +156,35 @@ function spawnPipePair(){
     topPipe = new Sprite(bird.x+400, midY-gap /2 -200, 52,320 , 'static')
     topPipe.img=pipe;
     topPipe.rotation=180;
+toppipe.passed=false
+    
     bottomPipe=  new Sprite(bird.x+400, midY+gap /2 +200, 52,320 , 'static') 
     bottomPipe.img=pipe;
     pipeGroup.add(topPipe);
     pipeGroup.add(bottomPipe);
     pipeGroup.layer=0;
-
-
 }
+
+
+function drawscore(x,y,score,digitwidth,digitheight){
+  scoredigits.removeall();
+  let scorestr = str(score);
+  let totalwidth = scorestr.length *digitwidth;
+  let startx = x - totalwidth / 2;
+  for (let i = 0; i<scorestr.length; i++)  {
+    let digit = int(scorestr[i]);
+    let xPos = startx + 1 *digitwwidth;
+    let digitsprite = new scoredigit.sprite(xPos,y,digitwidth,digitheight);
+    digitsprite.img=numberimages[digit];
+  }
+  movegroup(scoredigits,camera.x,24);
+}
+function movegroup(group,targetx,spacing){
+  let totalwidth = (group.length - 1)*spacing;
+  let startx = (target - totalwidth/2);
+  for (let i =0; i<group.length; i++){
+    group[i].x = startx + i *spacing;
+  }
+}
+
+
