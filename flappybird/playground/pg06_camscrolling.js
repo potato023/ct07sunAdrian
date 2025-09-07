@@ -104,7 +104,7 @@ function draw(){
   }
 
   if(frameCount % 90 === 0){
-    spawnPipePair();
+    spawnPipePair();//spawn the pipe every 1.5 seconds
   }
   
   //remove off screenpipes
@@ -122,27 +122,20 @@ function draw(){
     gameoverLabel.img = gameoverImg
     gameoverLabel.layer = 100;
     gameoverLabel.x = camera.x;
-
-    noLoop();
+    noLoop();// noLoop() paused the entire draw() loop function
   }
   }
-
-  
 }
 
 function spawnPipePair(){
 
     let gap= 50;
     let midY = random(250, height-250);
-
-
     topPipe = new Sprite(bird.x+400, midY-gap /2 -200, 52,320 , 'static')
     topPipe.img=pipe;
     topPipe.rotation=180;
-
     bottomPipe=  new Sprite(bird.x+400, midY+gap /2 +200, 52,320 , 'static') 
     bottomPipe.img=pipe;
-
     pipeGroup.add(topPipe);
     pipeGroup.add(bottomPipe);
     pipeGroup.layer=0;
