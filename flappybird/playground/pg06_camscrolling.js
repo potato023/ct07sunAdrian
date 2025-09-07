@@ -10,7 +10,7 @@ let startScreenLabel, startScreenImg;
 let startGame = false;
 let score = 0;
 let numberimages = [];
-
+let scoredigits = 
 
 //load the images before game starts
 function preload(){
