@@ -1,5 +1,5 @@
 //two must have function 1)setup 2)draw
-let bird , floor;
+let bird ,floor;
 let bg, base, flapMidImg, flapDownImg, flapUpImg;
 let bird2;
 let gameoverLabel, gameoverImg;
@@ -24,12 +24,13 @@ function preload(){
 function setup(){
 //to create a new Canvas
  new Canvas(400,600);
- bird = new Sprite();
+
+ bird = new Sprite();//sprite(x,y,w,h)
  bird.x =  width/2;
  bird.y = 200;
  bird.width = 30;
  bird.height = 30;
- bird.img = flapMidImg;
+ bird.img = flapMidImg; //call image to  asprite
 
  //bird physics
  bird.collider ='dynamic';
@@ -82,7 +83,7 @@ function draw(){
   //   bird2.img = flapMidImg
   // }
   
-  bird.x +=3;
+  bird.x +=3;//shfiting the bird 3 pixels every frame
   camera.x = bird.x;
   floor.x = camera.x;
 
