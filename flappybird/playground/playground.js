@@ -34,7 +34,7 @@ function draw(){
     if(mouse.presses('left')){
         dyncircle=new sprite(mouse.x,mouse.y,10)
         dyncircle.bounciness=1
-        
+        dyncircle.gravity.y=10
     }
 }
 
