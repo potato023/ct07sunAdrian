@@ -5,6 +5,7 @@ let bird2;
 let pipeGroup; //declare the var for the grp 
 let pipe;//is use to preload the pipeimage
 let topPipe, bottomPipe;
+let 
 //load the images before game starts
 function preload(){
   bg = loadImage('assets/background-day.png');
@@ -13,7 +14,7 @@ function preload(){
   flapUpImg = loadImage('assets/yellowbird-upflap.png');
   flapDownImg = loadImage('assets/yellowbird-downflap.png');
   pipe = loadImage('assets/pipe-green.png');
-  
+
 }
 
 function setup(){
