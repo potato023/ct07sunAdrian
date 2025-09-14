@@ -47,4 +47,5 @@ function draw(){
 
 function preload(){
     let popimage;
+    popimage
 }
