@@ -50,5 +50,8 @@ function preload(){
     popimage=loadimage(asset/backround.png)
 
     let score=67;
-    if(score >=90)
+    if(score >=90){
+        console.log('A')
+        
+    }
 }
