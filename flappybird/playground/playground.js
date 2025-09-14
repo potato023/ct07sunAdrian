@@ -26,4 +26,4 @@ function draw(){
     circle=(100,350,10);
 }
 pipe = new group();
-world.gravity.y=(10)
+world.gravity.y=10;
