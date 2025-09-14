@@ -52,6 +52,7 @@ function preload(){
     let score=67;
     if(score >=90){
         console.log('A')
+    }else if(score >=70 && score<90){
         
     }
 }
