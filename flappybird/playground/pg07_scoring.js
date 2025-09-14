@@ -13,7 +13,7 @@ let score = 0;//devalre score = 0
 numberImages = [];//declare a new array called numberImages
 let scoreDigits;//declare new variable scoreDigits
 
-//load the images before game starts
+//load the images before game stars
 function preload(){
   bg = loadImage('assets/background-day.png');
   base = loadImage('assets/base.png');
