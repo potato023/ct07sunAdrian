@@ -8,7 +8,7 @@ let pipe;
 let topPipe, bottomPipe;
 let startScreenLabel, startScreenImg;
 let startGame = false;
-
+let flapsound,pointsound,failsound;
 let score = 0;//devalre score = 0
 numberImages = [];//declare a new array called numberImages
 let scoreDigits;//declare new variable scoreDigits
@@ -80,6 +80,7 @@ function draw(){
     startScreenLabel.visible = false;
     //set bird visibility to true;
     bird.visible = true;
+    flapsound.play()
   }
   
   if(startGame){
