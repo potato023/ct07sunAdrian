@@ -143,8 +143,6 @@ function draw(){
     noLoop();
   }
   }
-
-  
 }
 
 function spawnPipePair(){
