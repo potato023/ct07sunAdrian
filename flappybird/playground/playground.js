@@ -45,4 +45,6 @@ function draw(){
     circle=new sprite(100,350,10);  
 }
 
-function preload()
+function preload(){
+    
+}
