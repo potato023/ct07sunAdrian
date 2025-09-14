@@ -14,7 +14,10 @@ function preload(){
   flapUpImg = loadImage('assets/yellowbird-upflap.png');
   flapDownImg = loadImage('assets/yellowbird-downflap.png');
   pipe = loadImage('assets/pipe-green.png');
-  flapsound = createAudio('')
+)
+  flapsound =createAudio("Assets/sfx_wings.mp3");
+pointsound =createAudio("Assets/sfx_point.mp3");
+failsound =createAudio("Assets/sfx_die.mp3");
 }
 
 function setup(){
