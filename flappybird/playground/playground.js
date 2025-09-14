@@ -47,5 +47,6 @@ function draw(){
 
 function preload(){
     let popimage;
-    popimage=loadimage(asset/onbeforeut.ong)
+    popimage=loadimage(asset/backround.png)
+    
 }
