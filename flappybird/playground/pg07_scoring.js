@@ -80,7 +80,7 @@ function draw(){
     startScreenLabel.visible = false;
     //set bird visibility to true;
     bird.visible = true;
-    flapsound.play()
+    flapsound.play();
   }
   
   if(startGame){
@@ -139,7 +139,7 @@ function draw(){
     gameoverLabel.img = gameoverImg
     gameoverLabel.layer = 100;
     gameoverLabel.x = camera.x;
-    failsound.play()
+    failsound.play();
     noLoop();
   }
   }
