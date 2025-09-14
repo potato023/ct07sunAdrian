@@ -44,3 +44,5 @@ function draw(){
     square=new sprite(400,200,10,10);
     circle=new sprite(100,350,10);  
 }
+
+function preload()
