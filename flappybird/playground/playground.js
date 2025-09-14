@@ -1,4 +1,6 @@
 function preload(){
 
 }
-ffunction
+function setup(){
+    
+}
