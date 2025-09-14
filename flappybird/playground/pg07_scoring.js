@@ -129,7 +129,7 @@ function draw(){
     }
   }
   for(let pipe of pipeGroup){
-    let piperightedge
+    let piperightedge=pipe.x +pipe.w /2
 
 
     
