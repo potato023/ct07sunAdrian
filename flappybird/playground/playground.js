@@ -48,5 +48,7 @@ function draw(){
 function preload(){
     let popimage;
     popimage=loadimage(asset/backround.png)
-    
+
+    let score=67;
+    if(score >=90)
 }
