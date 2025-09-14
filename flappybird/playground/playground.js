@@ -21,5 +21,5 @@ function setup(){
     
 }
 function draw(){
-    
+    square
 }
