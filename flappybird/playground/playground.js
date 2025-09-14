@@ -14,12 +14,11 @@
 //10)// --- Exercise: Age category classification --- 
 //if score 90 A ifscore70 b else c.
 
-function draw(){
 
-}
 function setup(){
     new canvas (800,400);
     
-
+}
+function draw(){
 
 }
