@@ -28,3 +28,4 @@ function draw(){
 pipe = new group();
 world.gravity.y=10;
 
+
