@@ -25,7 +25,7 @@ function draw(){
     square=(400,200,10,10);
     circle=(100,350,10);
 }
-pipe = new group();
-world.gravity.y=10;
+function draw(){
 
+}
 
