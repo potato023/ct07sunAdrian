@@ -23,7 +23,9 @@ function preload(){
   gameoverImg = loadImage('assets/gameover.png');
   pipe= loadImage("assets/pipe-green.png");
   startScreenImg = loadImage('assets/message.png');
-
+flapsound =createAudio("Assets/sfx_wings.mp3");
+pointsound =createAudio("Assets/sfx_point.mp3");
+failsound =createAudio("Assets/sfx_die.mp3");
   for(let i =0; i<10; i++){
      numberImages[i]= loadImage('assets/'+i+'.png');
   }
