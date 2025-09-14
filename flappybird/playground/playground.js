@@ -46,5 +46,5 @@ function draw(){
 }
 
 function preload(){
-    
+    let popimage;
 }
