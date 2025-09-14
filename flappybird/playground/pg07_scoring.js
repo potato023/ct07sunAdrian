@@ -133,7 +133,7 @@ function draw(){
     let birdleftedge=bird.x-bird.w/2;
     if(pipe.passed == false &&piperightedge<birdleftedge){
       pipe.passed=true;
-      pointsound.play()
+      pointsound.play();
       score++;
     }
 
