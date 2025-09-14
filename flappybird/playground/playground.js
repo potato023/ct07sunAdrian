@@ -21,5 +21,6 @@ function setup(){
     
 }
 function draw(){
-    square(400,200,)
+    square(400,200,10,10
+    )
 }
