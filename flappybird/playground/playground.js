@@ -47,5 +47,5 @@ function draw(){
 
 function preload(){
     let popimage;
-    popimage=loadimage(assets)
+    popimage=loadimage(asset/onbeforeinput.ong)
 }
