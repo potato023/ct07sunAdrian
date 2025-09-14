@@ -9,6 +9,7 @@
 //7)while loop syntax and for loop syntax
 //6)left click create a dynamic circle add in bounciness and gravity
 //add in color red to ballsprite
+circle.color='red'
 //8)create a sprite at mouse position 
 //9)declare var popimage and preload it in preload function
 //10)// --- Exercise: Age category classification --- 
