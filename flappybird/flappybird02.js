@@ -5,7 +5,7 @@ let bird2;
 let pipeGroup; //declare the var for the grp 
 let pipe;//is use to preload the pipeimage
 let topPipe, bottomPipe;
-let 
+let flapsound,point
 //load the images before game starts
 function preload(){
   bg = loadImage('assets/background-day.png');
