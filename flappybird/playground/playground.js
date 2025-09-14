@@ -20,8 +20,10 @@ let pipe
 function setup(){
     new canvas (800,400);
     pipe = new group();
-world.gravity.y=10;
-
+    world.gravity.y=10;
+    if(mouse.presses('left')){
+        
+    }
 }
 function draw(){
     square=(400,200,10,10);
