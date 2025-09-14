@@ -22,7 +22,7 @@ function setup(){
     pipe = new group();
     world.gravity.y=10;
     while(i>0){
-        
+        i++
     }
     for(let i in 0){
 
