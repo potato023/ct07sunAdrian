@@ -21,13 +21,14 @@ function setup(){
     new canvas (800,400);
     pipe = new group();
     world.gravity.y=10;
-    if(mouse.presses('left')){
-        
-    }
+    
 }
 function draw(){
     square=new sprite(400,200,10,10);
     circle=new sprite(100,350,10);
+    if(mouse.presses('left')){
+        
+    }
 }
 
 
