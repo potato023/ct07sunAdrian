@@ -33,7 +33,8 @@ function draw(){
     circle=new sprite(100,350,10);  
     if(mouse.presses('left')){
         dyncircle=new sprite(mouse.x,mouse.y,10)
-        dyncircle.bounciness=1                                                                                                                                              
+        dyncircle.bounciness=1
+        
     }
 }
 
