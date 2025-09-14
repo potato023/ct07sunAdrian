@@ -38,7 +38,7 @@ function draw(){
         dyncircle.gravity.y=10
     }
     if(mouse.presses('right')){
-        
+        circle=new sprite()
     }
 
     square=new sprite(400,200,10,10);
