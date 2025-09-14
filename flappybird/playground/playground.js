@@ -16,6 +16,7 @@
 
 let square
 let circle
+let pipe
 function setup(){
     new canvas (800,400);
     
