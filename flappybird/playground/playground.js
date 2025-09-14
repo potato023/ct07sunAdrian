@@ -38,6 +38,13 @@ function draw(){
         dyncircle.bounciness=1
         dyncircle.gravity.y=10
     }
+
+
+
+
 }
+
+
+
 
 
