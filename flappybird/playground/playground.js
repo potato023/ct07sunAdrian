@@ -22,7 +22,7 @@ function setup(){
     pipe = new group();
     world.gravity.y=10;
     if(mouse.presses('left')){
-        
+        mouse
     }
 }
 function draw(){
