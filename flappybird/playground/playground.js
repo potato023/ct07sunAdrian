@@ -15,7 +15,7 @@
 //if score 90 A ifscore70 b else c.
 
 let square
-
+let circle
 function setup(){
     new canvas (800,400);
     
