@@ -132,7 +132,7 @@ function draw(){
     let piperightedge=pipe.x +pipe.w /2;
     let birdleftedge=bird.x-bird.w/2;
     if(pipe.passed == false &&piperightedge<birdleftedge){
-      
+      pipe.passed=
     }
 
 
