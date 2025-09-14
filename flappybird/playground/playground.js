@@ -26,7 +26,7 @@ function setup(){
     }
 }
 function draw(){
-    square=(400,200,10,10);
+    square=new sprite(400,200,10,10);
     circle=(100,350,10);
 }
 
