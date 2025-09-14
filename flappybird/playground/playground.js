@@ -21,7 +21,10 @@ function setup(){
     new canvas (800,400);
     pipe = new group();
     world.gravity.y=10;
-    while(i>0){}
+    while(i>0){
+
+    }
+    for(let i in 0)
 }
 function draw(){
     square=new sprite(400,200,10,10);
