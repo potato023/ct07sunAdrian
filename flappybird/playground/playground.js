@@ -25,7 +25,7 @@ function setup(){
         i++
     }
     for(let i in 0){
-
+        i++
     }
 }
 function draw(){
