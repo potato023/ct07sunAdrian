@@ -24,7 +24,9 @@ function setup(){
     while(i>0){
 
     }
-    for(let i in 0)
+    for(let i in 0){
+        
+    }
 }
 function draw(){
     square=new sprite(400,200,10,10);
