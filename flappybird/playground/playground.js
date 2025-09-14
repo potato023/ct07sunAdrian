@@ -47,5 +47,5 @@ function draw(){
 
 function preload(){
     let popimage;
-    popimage
+    popimage=loadimage(assets)
 }
