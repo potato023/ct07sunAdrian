@@ -25,12 +25,15 @@ function setup(){
 
     }
     for(let i in 0){
-        
+
     }
 }
 function draw(){
     square=new sprite(400,200,10,10);
     circle=new sprite(100,350,10);  
+    if(mouse.presses('left')){
+        
+    }
 }
 
 
