@@ -53,6 +53,6 @@ function preload(){
     if(score >=90){
         console.log('A')
     }else if(score >=70 && score<90){
-        
+        console.log('B')
     }
 }
