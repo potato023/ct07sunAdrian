@@ -128,7 +128,9 @@ function draw(){
       pipe.remove();
     }
   }
-
+  for(let pipe of pipeGroup){
+    
+  }
   drawScore(width/2,20,score,24,36);
 
   if(bird.collides(pipeGroup) || bird.collides(floor)){
