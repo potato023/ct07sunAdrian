@@ -2,16 +2,16 @@ let dojobg;
 let fruitgroup;
 let fruittype = [];
 function preload(){
-    dojobg = loadimage('assets/dojobackround.png');
-}
-
-function setup(){
     let peach = {
         whole:loadimage('assets/peachwhole.png')
     }
     let watermelon = {
         whole:loadimage('assets/watermelonwhole.png')
     }
+    dojobg = loadimage('assets/dojobackround.png');
+}
+
+function setup(){
     new Canvas(800,600);
 }
 
