@@ -1,6 +1,6 @@
 let dojobg;
 let fruitgroup;
-let fruittype = [watermelon,peac];
+let fruittype = [watermelon,peach];
 function preload(){
     let peach = {
         whole:loadimage('assets/peachwhole.png')
@@ -25,5 +25,5 @@ function draw(){
 }
 
 function spawnfruit(){
-    let fruitdata = random(fruittype)
+    let fruitdata = random(fruittype);
 }
