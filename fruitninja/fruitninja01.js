@@ -10,5 +10,5 @@ function setup(){
 
 function draw(){
     world.gravity.y = 10;
-    image(dojobg,0,0,innerw)
+    image(dojobg,0,0,innerWidth,height)
 }
