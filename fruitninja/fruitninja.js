@@ -7,5 +7,5 @@ function setup(){
 
 function draw(){
     watermelon = new sprite()
-    
+    //add gravity to fruits
 }
