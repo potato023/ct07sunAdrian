@@ -1,7 +1,7 @@
 let dojobg;
 
 function preload(){
-    dojobg = loadimage
+    dojobg = loadimage('asset')
 }
 
 function setup(){
