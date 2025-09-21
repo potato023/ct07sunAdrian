@@ -6,6 +6,9 @@ function preload(){
 }
 
 function setup(){
+    let peach = {
+        
+    }
     new Canvas(800,600);
 }
 
