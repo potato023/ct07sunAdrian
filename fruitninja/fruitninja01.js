@@ -7,7 +7,7 @@ function preload(){
 
 function setup(){
     let peach = {
-        whole:loadimage
+        whole:loadimage(assets/dojobback)
     }
     new Canvas(800,600);
 }
