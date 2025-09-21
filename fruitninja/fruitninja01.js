@@ -10,6 +10,6 @@ function setup(){
 
 function draw(){
     watermelon = new sprite();
-    fruit = new group()
-    world.gravity.y = 10
+    fruit = new group();
+    world.gravity.y = 10;
 }
