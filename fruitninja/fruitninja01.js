@@ -24,4 +24,6 @@ function draw(){
     }
 }
 
-function spawnfruit()
+function spawnfruit(){
+    let
+}
