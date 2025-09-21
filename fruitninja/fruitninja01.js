@@ -3,7 +3,7 @@ let fruit;
 
 
 function setup(){
-    new Canvas(600,);
+    new Canvas(800,600);
 }
 
 function draw(){
