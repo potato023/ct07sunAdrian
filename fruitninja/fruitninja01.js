@@ -10,7 +10,4 @@ function draw(){
     watermelon = new sprite();
     fruit = new group()
 
-  
-
-
 }
