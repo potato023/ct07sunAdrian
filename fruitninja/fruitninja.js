@@ -7,4 +7,5 @@ function setup(){
 
 function draw(){
     watermelon = new sprite()
+    
 }
