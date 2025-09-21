@@ -23,3 +23,5 @@ function draw(){
         spawnfruit();
     }
 }
+
+function spawnfruit()
