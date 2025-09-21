@@ -10,7 +10,7 @@ function setup(){
         whole:loadimage('assets/peachwhole.png')
     }
     let watermelon = {
-        whole:loadimage('assets/watermelon')
+        whole:loadimage('assets/watermelonwhole.png')
     }
     new Canvas(800,600);
 }
