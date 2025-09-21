@@ -27,6 +27,6 @@ function draw(){
 function spawnfruit(){
     let fruitdata = random(fruittype);
     let randomx = random(300,500);
-    let fruit = new fruitgroup.sprite(randomx,height+20,40)
-    fruit.vel.x = random(-10,-14)
+    let fruit = new fruitgroup.sprite(randomx,height+20,40);
+    fruit.vel.x = random(-10,-14);
 }
