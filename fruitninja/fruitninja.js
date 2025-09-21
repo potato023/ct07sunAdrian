@@ -9,5 +9,5 @@ function draw(){
     watermelon = new sprite()
     //add gravity to fruits
 
-    //use mouse. to 
+    //use mouse. to slice fruits when 
 }
