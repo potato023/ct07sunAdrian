@@ -19,4 +19,7 @@ function setup(){
 function draw(){
     image(dojobg,0,0,innerWidth,height)
     fruitgroup = new group();
+    if (framecount%120 ===0){
+        
+    }
 }
