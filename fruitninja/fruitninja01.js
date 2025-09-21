@@ -30,4 +30,5 @@ function spawnfruit(){
     let fruit = new fruitgroup.sprite(randomx,height+20,40);
     fruit.vel.x = random(-10,-14);
     fruit.vel.y = random(-2,2)
+    fruit.friction = 0
 }
