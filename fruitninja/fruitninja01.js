@@ -19,7 +19,7 @@ function setup(){
 function draw(){
     image(dojobg,0,0,innerWidth,height)
     fruitgroup = new group();
-    if (framecount%120 ===0){
+    if (frameCount%120 ===0){
         spawnfruit();
     }
 }
@@ -29,5 +29,5 @@ function spawnfruit(){
     let randomx = random(300,500);
     let fruit = new fruitgroup.sprite(randomx,height+20,40);
     fruit.vel.x = random(-10,-14);
-    fruit.vel.y
+    fruit.vel.y = random(-2,2)
 }
