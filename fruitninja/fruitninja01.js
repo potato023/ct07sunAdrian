@@ -9,6 +9,6 @@ function setup(){
 }
 
 function draw(){
-    watermelon = new sprite();
     world.gravity.y = 10;
+    
 }
