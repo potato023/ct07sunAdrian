@@ -7,7 +7,7 @@ function preload(){
 
 function setup(){
     let peach = {
-        whole:loadimage(assets/dojobackround)
+        whole:loadimage(assets/dojobackround.png)
     }
     new Canvas(800,600);
 }
