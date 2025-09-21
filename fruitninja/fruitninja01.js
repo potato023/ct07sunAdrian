@@ -1,8 +1,7 @@
-let watermelon;
-let fruit;
+let dojobg;
 
 function preload(){
-    
+
 }
 
 function setup(){
