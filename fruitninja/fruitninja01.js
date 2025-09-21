@@ -12,10 +12,10 @@ function preload(){
 }
 
 function setup(){
+    world.gravity.y = 10;
     new Canvas(800,600);
 }
 
 function draw(){
-    world.gravity.y = 10;
     image(dojobg,0,0,innerWidth,height)
 }
