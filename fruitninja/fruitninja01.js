@@ -11,5 +11,5 @@ function setup(){
 function draw(){
     watermelon = new sprite();
     fruit = new group()
-    world.gravity.y
+    world.gravity.y = 10
 }
