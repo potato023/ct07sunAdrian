@@ -1,6 +1,6 @@
 let dojobg;
 let fruitgroup;
-let fruittype;
+let fruittype = [];
 function preload(){
     dojobg = loadimage('assets/dojobackround.png');
 }
