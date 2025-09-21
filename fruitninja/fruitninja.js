@@ -7,9 +7,9 @@ function setup(){
 
 function draw(){
     watermelon = new sprite()
-    //add gravity to fruits
+    //add grav
 
     //use mouse. to slice fruits when clicked and over fruit
 
-    
+
 }
