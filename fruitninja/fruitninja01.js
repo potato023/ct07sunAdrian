@@ -27,4 +27,5 @@ function draw(){
 function spawnfruit(){
     let fruitdata = random(fruittype);
     let randomx = random(300,500);
+    let fruit = new
 }
